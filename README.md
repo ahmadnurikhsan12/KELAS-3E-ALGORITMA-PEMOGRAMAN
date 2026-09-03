@@ -49,7 +49,7 @@ flowchart TD
 |---:|---:|---|---|
 | 1 | 12 | 12 MOD 3 = 0 | Habis dibagi 3 |
 | 2 | 10 | 10 MOD 3 = 1 | Tidak habis dibagi 3 |
-| 3 | 21 | 21 MOD 3 = 0 | Habis dibagi 3 |
+| 3 | 15 | 21 MOD 3 = 0 | Habis dibagi 3 |
 
 ### Verifikasi
 
