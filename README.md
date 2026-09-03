@@ -3,7 +3,8 @@ Nim   : 2225250042
 
 Menentukan Bilangan Habis Dibagi 3 atau Tidak
 
-1. Deskripsi Masalah 
+1. Deskripsi Masalah
+   
 Diberikan sebuah bilangan bulat nn. Tentukan apakah bilangan tersebut habis dibagi 3 atau tidak. Suatu bilangan dikatakan habis dibagi 3 apabila hasil pembagian bilangan tersebut dengan 3 memiliki sisa 0. Program akan menerima sebuah bilangan sebagai input, kemudian memeriksa sisa pembagiannya dengan 3 dan menampilkan hasil berupa “Habis dibagi 3” atau “Tidak habis dibagi 3”.
 
 2. Identifikasi input, Proses dan output
