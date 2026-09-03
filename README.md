@@ -45,12 +45,21 @@ flowchart TD
 
 5. Tes Case dan Verifikasi
 
-
 | No | Input | Perhitungan | Hasil yang Diharapkan |
 |---:|---:|---|---|
-| 1 | 12 | `12 MOD 3 = 0` | Habis dibagi 3 |
-| 2 | 10 | `10 MOD 3 = 1` | Tidak habis dibagi 3 |
-| 3 | 21 | `21 MOD 3 = 0` | Habis dibagi 3 |
+| 1 | 12 | 12 MOD 3 = 0 | Habis dibagi 3 |
+| 2 | 10 | 10 MOD 3 = 1 | Tidak habis dibagi 3 |
+| 3 | 21 | 21 MOD 3 = 0 | Habis dibagi 3 |
+
+### Verifikasi
+
+| No | Hasil yang Diharapkan | Hasil Program | Verifikasi |
+|---:|---|---|---|
+| 1 | Habis dibagi 3 | Habis dibagi 3 | Sesuai |
+| 2 | Tidak habis dibagi 3 | Tidak habis dibagi 3 | Sesuai |
+| 3 | Habis dibagi 3 | Habis dibagi 3 | Sesuai |
+
+**Kesimpulan:** Berdasarkan hasil pengujian, seluruh hasil program sesuai dengan hasil yang diharapkan. Dengan demikian, program dapat menentukan bilangan yang habis atau tidak habis dibagi 3 dengan benar.
 
 6. Implementasi Python
 
