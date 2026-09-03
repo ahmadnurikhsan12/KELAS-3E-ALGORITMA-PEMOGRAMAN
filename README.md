@@ -62,7 +62,12 @@ if n % 3 == 0:
 else:
     print("Tidak habis dibagi 3")
 ```
- 
+
+
+ 7. Hasil Pengujian
+
+<img width="1920" height="1080" alt="Screenshot 2026-09-02 175834" src="https://github.com/user-attachments/assets/8d02c672-2f6f-424e-b69d-077e21132e5d" />
+
 
 
 
