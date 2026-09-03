@@ -15,7 +15,9 @@ Diberikan sebuah bilangan bulat nn. Tentukan apakah bilangan tersebut habis diba
 | **Proses** | Menghitung sisa pembagian `n` dengan 3 menggunakan `n MOD 3`, kemudian memeriksa apakah sisanya 0 |
 | **Output** | "Habis dibagi 3" atau "Tidak habis dibagi 3" |
 
-3. Pseudocode
+#3. Pseudocode
+
+```text
 INPUT n
 
 IF n MOD 3 = 0 THEN
@@ -23,6 +25,7 @@ IF n MOD 3 = 0 THEN
 ELSE
     OUTPUT "Tidak habis dibagi 3"
 END IF
+```
  
 
 4. Flowchart
