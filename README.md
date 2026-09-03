@@ -44,7 +44,7 @@ flowchart TD
 
 
 5. Tes Case dan Verifikasi
-## 5. Test Case dan Verifikasi
+
 
 | No | Input | Perhitungan | Hasil yang Diharapkan |
 |---:|---:|---|---|
@@ -53,12 +53,15 @@ flowchart TD
 | 3 | 21 | `21 MOD 3 = 0` | Habis dibagi 3 |
 
 6. Implementasi Python
+
+```python
 n = int(input("Masukkan bilangan: "))
 
 if n % 3 == 0:
     print("Habis dibagi 3")
 else:
     print("Tidak habis dibagi 3")
+```
  
 
 
