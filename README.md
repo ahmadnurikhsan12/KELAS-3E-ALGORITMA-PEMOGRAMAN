@@ -7,10 +7,12 @@ Menentukan Bilangan Habis Dibagi 3 atau Tidak
 Diberikan sebuah bilangan bulat nn. Tentukan apakah bilangan tersebut habis dibagi 3 atau tidak. Suatu bilangan dikatakan habis dibagi 3 apabila hasil pembagian bilangan tersebut dengan 3 memiliki sisa 0. Program akan menerima sebuah bilangan sebagai input, kemudian memeriksa sisa pembagiannya dengan 3 dan menampilkan hasil berupa “Habis dibagi 3” atau “Tidak habis dibagi 3”.
 
 2. Identifikasi input, Proses dan output
-Komponen	keterangan
-Input	Bilangan bulat n
-Proses	Menghitung sisa pembagian nn dengan 3 menggunakan n MOD 3n \ MOD\ 3, kemudian memeriksa apakah sisanya 0
-Output	“Habis dibagi 3” atau “Tidak habis dibagi 3”
+
+| Komponen | Keterangan |
+|---|---|
+| **Input** | Bilangan bulat `n` |
+| **Proses** | Menghitung sisa pembagian `n` dengan 3 menggunakan `n MOD 3`, kemudian memeriksa apakah sisanya 0 |
+| **Output** | "Habis dibagi 3" atau "Tidak habis dibagi 3" |
 
 3. Pseudocode
 INPUT n
