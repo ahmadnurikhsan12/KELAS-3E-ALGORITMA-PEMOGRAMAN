@@ -15,7 +15,7 @@ Diberikan sebuah bilangan bulat nn. Tentukan apakah bilangan tersebut habis diba
 | **Proses** | Menghitung sisa pembagian `n` dengan 3 menggunakan `n MOD 3`, kemudian memeriksa apakah sisanya 0 |
 | **Output** | "Habis dibagi 3" atau "Tidak habis dibagi 3" |
 
-#3. Pseudocode
+3. Pseudocode
 
 ```text
 INPUT n
@@ -44,10 +44,13 @@ flowchart TD
 
 
 5. Tes Case dan Verifikasi
-No	Input	Perhitungan	Hasil yang Diharapkan 
-1	12	12 MOD 3 = 0	Habis dibagi 3
-2	10	10 MOD 3 = 1	Tidak  habis dibagi 3
-3	21	21 MOD 3 = 0	Habis dibagi 3
+## 5. Test Case dan Verifikasi
+
+| No | Input | Perhitungan | Hasil yang Diharapkan |
+|---:|---:|---|---|
+| 1 | 12 | `12 MOD 3 = 0` | Habis dibagi 3 |
+| 2 | 10 | `10 MOD 3 = 1` | Tidak habis dibagi 3 |
+| 3 | 21 | `21 MOD 3 = 0` | Habis dibagi 3 |
 
 6. Implementasi Python
 n = int(input("Masukkan bilangan: "))
