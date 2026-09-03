@@ -24,7 +24,7 @@ END IF
 
 4. Flowchart
 
- # Flowchart Menentukan Bilangan Habis Dibagi 3 atau Tidak
+ Flowchart Menentukan Bilangan Habis Dibagi 3 atau Tidak
 
 ```mermaid
 flowchart TD
