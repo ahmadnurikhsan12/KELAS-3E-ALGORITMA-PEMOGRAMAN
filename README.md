@@ -24,7 +24,17 @@ END IF
 
 4. Flowchart
 
- 
+ # Flowchart Menentukan Bilangan Habis Dibagi 3 atau Tidak
+
+```mermaid
+flowchart TD
+    A([Mulai]) --> B[/Input bilangan n/]
+    B --> C{Apakah n MOD 3 = 0?}
+    C -->|Ya| D[/Output: "Habis dibagi 3"/]
+    C -->|Tidak| E[/Output: "Tidak habis dibagi 3"/]
+    D --> F([Selesai])
+    E --> F
+```
 
 
 5. Tes Case dan Verifikasi
